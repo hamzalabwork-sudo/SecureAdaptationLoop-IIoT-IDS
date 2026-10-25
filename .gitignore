@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+simulation/.secrets/
+simulation/cache/
+*.npz
+/wustl_iiot_2021.csv
+/Forge_IIOT_Pro.csv
+/MU-IoT.csv
+/X-IIoTID/
+/Edge-IIoTset dataset/
+simulation/results/**/logs/

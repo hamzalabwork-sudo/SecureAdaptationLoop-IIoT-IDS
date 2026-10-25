@@ -1,0 +1,167 @@
+{
+  "address": "0x02053aA9B99dd77c87b5B636a44E6B8aF0560dfa",
+  "latency_s": {
+    "deploy": {
+      "mean": 1.7369044999941252,
+      "p95": 1.7369044999941252,
+      "n": 1
+    },
+    "addValidator": {
+      "mean": 1.6326290666766,
+      "p95": 2.1161420499993255,
+      "n": 3
+    },
+    "register": {
+      "mean": 1.7496619999874383,
+      "p95": 1.7496619999874383,
+      "n": 1
+    },
+    "propose": {
+      "mean": 1.9945335800002795,
+      "p95": 2.0402278049979943,
+      "n": 10
+    },
+    "seed_wait": {
+      "mean": 1.9366465100029018,
+      "p95": 2.06132755499857,
+      "n": 10
+    },
+    "attest": {
+      "mean": 1.9212888500012923,
+      "p95": 2.0379958149933373,
+      "n": 20
+    },
+    "coverage": {
+      "mean": 2.008452549998765,
+      "p95": 2.1125478550049595,
+      "n": 2
+    }
+  },
+  "gas": {
+    "deploy": {
+      "mean": 1248807.0,
+      "n": 1
+    },
+    "addValidator": {
+      "mean": 46201.0,
+      "n": 3
+    },
+    "register": {
+      "mean": 70268.0,
+      "n": 1
+    },
+    "propose": {
+      "mean": 141389.5,
+      "n": 10
+    },
+    "attest": {
+      "mean": 64638.4,
+      "n": 20
+    },
+    "coverage": {
+      "mean": 64134.0,
+      "n": 2
+    }
+  },
+  "decision_s": {
+    "accept": 7.924893633336372,
+    "reject": 8.066869966656668,
+    "defer": 7.9560293000055635
+  },
+  "checks": [
+    "attest before seed: reverted (('execution reverted: audit seed not revealed yet', '0x08c379a000000000000000000)",
+    "pass below threshold: reverted (('execution reverted: e-value below threshold', '0x08c379a0000000000000000000000)"
+  ],
+  "cycles": [
+    {
+      "tag": "accept",
+      "uid": 0,
+      "k": 1,
+      "seed": 14749300462250804859,
+      "threshold": 65.79736267392904,
+      "status": 2,
+      "expected": 2,
+      "decision_s": 7.942618700006278
+    },
+    {
+      "tag": "reject",
+      "uid": 1,
+      "k": 2,
+      "seed": 17057016278818283016,
+      "threshold": 263.1894506957162,
+      "status": 3,
+      "expected": 3,
+      "decision_s": 8.01324050000403
+    },
+    {
+      "tag": "defer",
+      "uid": 2,
+      "k": 3,
+      "seed": 18039540898001999733,
+      "threshold": 592.1762640653615,
+      "status": 4,
+      "expected": 4,
+      "decision_s": 7.958902800019132
+    },
+    {
+      "tag": "accept",
+      "uid": 3,
+      "k": 4,
+      "seed": 9036675158003157613,
+      "threshold": 1052.7578027828647,
+      "status": 2,
+      "expected": 2,
+      "decision_s": 8.008191400003852
+    },
+    {
+      "tag": "reject",
+      "uid": 4,
+      "k": 5,
+      "seed": 3760111078216192051,
+      "threshold": 1644.9340668482262,
+      "status": 3,
+      "expected": 3,
+      "decision_s": 8.016929499979597
+    },
+    {
+      "tag": "defer",
+      "uid": 5,
+      "k": 6,
+      "seed": 1414471925151432622,
+      "threshold": 2368.705056261446,
+      "status": 4,
+      "expected": 4,
+      "decision_s": 8.064836100005778
+    },
+    {
+      "tag": "accept",
+      "uid": 6,
+      "k": 7,
+      "seed": 11967150690940736940,
+      "threshold": 3224.0707710225233,
+      "status": 2,
+      "expected": 2,
+      "decision_s": 7.823870799998986
+    },
+    {
+      "tag": "reject",
+      "uid": 7,
+      "k": 8,
+      "seed": 16049958894064852383,
+      "threshold": 4211.031211131459,
+      "status": 3,
+      "expected": 3,
+      "decision_s": 8.170439899986377
+    },
+    {
+      "tag": "defer",
+      "uid": 8,
+      "k": 9,
+      "seed": 6701175870908750575,
+      "threshold": 5329.586376588252,
+      "status": 4,
+      "expected": 4,
+      "decision_s": 7.84434899999178
+    }
+  ]
+}

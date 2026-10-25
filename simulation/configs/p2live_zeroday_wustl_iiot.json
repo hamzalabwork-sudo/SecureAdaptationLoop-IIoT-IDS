@@ -1,0 +1,10 @@
+{
+  "extends": "p2_zeroday_eg_wustl_iiot.json",
+  "name": "p2live_zeroday_wustl_iiot",
+  "learners": {
+    "gate": {
+      "backend": "purechain",
+      "deploy_new": true
+    }
+  }
+}

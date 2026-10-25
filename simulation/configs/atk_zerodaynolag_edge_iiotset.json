@@ -1,0 +1,33 @@
+{
+  "extends": "edge_iiotset.json",
+  "name": "atk_zerodaynolag_edge_iiotset",
+  "scenario": {
+    "validators": {
+      "n": 3,
+      "per_class": 300,
+      "lag_phases": 0
+    }
+  },
+  "learners": {
+    "gate": {
+      "policy": "net_bal",
+      "threshold": 2,
+      "max_recall_drop": 0.3,
+      "max_detect_drop": 0.01,
+      "max_cum_drop": 0.3,
+      "soft_drop": 0.1
+    }
+  },
+  "attack": {
+    "poison": {
+      "target": "B0",
+      "rate": 1.0,
+      "windows": [
+        [
+          120,
+          280
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "p2_variantK_eg_xiiotid.json",
+  "name": "p2live_variantK_xiiotid",
+  "learners": {
+    "gate": {
+      "backend": "purechain",
+      "deploy_new": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "extends": "mu_iot.json",
+  "name": "p2_zeroday_vbc_mu_iot",
+  "scenario": {
+    "validators": {
+      "n": 3,
+      "per_class": 600,
+      "lag_phases": 1,
+      "clusters": 0
+    }
+  },
+  "learners": {
+    "gate": {
+      "policy": "vbc",
+      "evalue": {
+        "alpha": 0.05,
+        "eps": 0.03,
+        "eps_normal": 0.08,
+        "n_max": 1000,
+        "f": 1,
+        "anchors": 4,
+        "phi": 0.5,
+        "coverage_after": 3,
+        "spending": true,
+        "highwater": true,
+        "fixed_audit": false,
+        "defer": true
+      }
+    }
+  },
+  "attack": {
+    "poison": {
+      "target": "B0",
+      "rate": 1.0,
+      "windows": [
+        [
+          120,
+          280
+        ]
+      ]
+    }
+  }
+}

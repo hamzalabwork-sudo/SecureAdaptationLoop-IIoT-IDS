@@ -1,0 +1,45 @@
+{
+  "extends": "wustl_iiot.json",
+  "name": "p2_variantS_egnospend_wustl_iiot",
+  "scenario": {
+    "validators": {
+      "n": 3,
+      "per_class": 600,
+      "lag_phases": 0,
+      "clusters": 3
+    }
+  },
+  "learners": {
+    "gate": {
+      "policy": "evalue",
+      "evalue": {
+        "alpha": 0.05,
+        "eps": 0.03,
+        "eps_normal": 0.08,
+        "n_max": 1000,
+        "f": 1,
+        "anchors": 4,
+        "phi": 0.5,
+        "coverage_after": 3,
+        "spending": false,
+        "highwater": true,
+        "fixed_audit": false,
+        "defer": true
+      }
+    }
+  },
+  "attack": {
+    "poison": {
+      "target": "A0",
+      "rate": 1.0,
+      "variant_q": 0.025,
+      "inject": 0.01,
+      "windows": [
+        [
+          200,
+          280
+        ]
+      ]
+    }
+  }
+}

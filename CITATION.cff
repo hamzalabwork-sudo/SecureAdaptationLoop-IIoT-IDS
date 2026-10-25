@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Attacking and Provably Securing the Adaptation Loop of Self-Updating IIoT Intrusion Detection (code and results)"
+type: software
+license: MIT
+repository-code: "https://github.com/hamzalabwork-sudo/SecureAdaptationLoop-IIoT-IDS"
+authors:
+  - family-names: Ibrahim
+    given-names: Hamza
+    affiliation: "Kumoh National Institute of Technology"
+  - family-names: Ahakonye
+    given-names: Love Allen Chijioke
+  - family-names: Lee
+    given-names: Jae-Min
+  - family-names: Kim
+    given-names: Dong-Seong
+preferred-citation:
+  type: article
+  title: "Attacking and Provably Securing the Adaptation Loop of Self-Updating IIoT Intrusion Detection"
+  journal: "IEEE Internet of Things Journal (submitted)"
+  year: 2026
+  authors:
+    - family-names: Ibrahim
+      given-names: Hamza
+    - family-names: Ahakonye
+      given-names: Love Allen Chijioke
+    - family-names: Lee
+      given-names: Jae-Min
+    - family-names: Kim
+      given-names: Dong-Seong

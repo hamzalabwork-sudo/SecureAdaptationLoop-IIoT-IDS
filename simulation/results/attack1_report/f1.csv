@@ -1,0 +1,11 @@
+attack,Static,ER,DTL,DTL+Gate-dual
+clean,59.0,78.7,82.2,81.6
+naive,59.0,74.3,81.1,81.2
+poisononly,59.0,75.5,80.8,79.5
+hijack,58.9,75.7,81.5,80.1
+slow,59.0,77.0,82.4,81.5
+variant,59.1,73.5,78.0,80.6
+variantK,59.0,78.2,82.1,81.4
+variantK2,59.0,78.0,82.1,81.4
+zeroday,59.0,71.8,73.9,73.2
+zerodaynolag,59.0,71.8,73.9,73.4
