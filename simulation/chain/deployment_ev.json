@@ -1,7 +1,7 @@
 {
+  "network": {"name": "PureChain", "chain_id": 900520900520, "rpc": "https://purechainnode.com", "consensus": "PoA2", "gas_price": 0},
+  "contract": "ModelUpdateGateEV",
   "address": "0x72498249bB0C682B53e59c482cd460C7a104b05E",
-  "tx": "41682306e0a8159f870332f763745795d3fef4282844d9121dbb9f3aabd3698b",
-  "block": 1842437,
   "owner": "0xb278B3F2268f7864D51eeB5527A7e8ddbeb4aA13",
   "gateway": "0xb278B3F2268f7864D51eeB5527A7e8ddbeb4aA13",
   "validators": [
@@ -9,5 +9,18 @@
     "0xcEb6E00dF40bB32264a18B9b8F52f90fA46cC134",
     "0xcF21436B26f50DC9b30685E74F96Ae6a99963f78"
   ],
-  "deployed_at": "2026-10-25 18:49:42"
+  "live_deployments": [
+    {"experiment": "contract test: every outcome path and both protections (chain/ev_live_test.py, results/chain_ev)",
+     "address": "0x02053aA9B99dd77c87b5B636a44E6B8aF0560dfa", "block": 1842200,
+     "tx": "8d6d9d3b41de1576377af02fe82a975876420101ea0b4bf4613f8b91bec4dd42",
+     "updates": 10, "accepted": 4, "rejected": 3, "deferred": 3},
+    {"experiment": "live stream: gate-optimal variant, X-IIoTID, seed 0 (configs/p2live_variantK_xiiotid.json)",
+     "address": "0x6290C7c41fdcE61441bC116484dc015ce6128b53", "block": 1842311,
+     "tx": "d027e7c9fcabe8ad20a0caa2d29defec5fd423527b26fa9862fefe69c28f5551",
+     "updates": 13, "accepted": 6, "rejected": 3, "deferred": 4},
+    {"experiment": "live stream: denial of learning, WUSTL-IIoT-2021, seed 0, CoverageEscalation at batch 230 (configs/p2live_zeroday_wustl_iiot.json)",
+     "address": "0x72498249bB0C682B53e59c482cd460C7a104b05E", "block": 1842437,
+     "tx": "41682306e0a8159f870332f763745795d3fef4282844d9121dbb9f3aabd3698b",
+     "updates": 19, "accepted": 3, "rejected": 0, "deferred": 16}
+  ]
 }

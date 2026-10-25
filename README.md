@@ -103,6 +103,18 @@ The grids use a local implementation of the contract with the same decision logi
 
 Test accounts are generated on first use in `simulation/.secrets/`. This folder is ignored by git; never commit it.
 
+### Live deployments
+
+The contracts used in the paper's live experiments are deployed on PureChain, and every proposal, attestation and decision can be inspected there:
+
+| Experiment | `ModelUpdateGateEV` address | Block | Updates (accepted / rejected / deferred) |
+|---|---|---|---|
+| Contract test: every outcome path, both protections | `0x02053aA9B99dd77c87b5B636a44E6B8aF0560dfa` | 1,842,200 | 10 (4 / 3 / 3) |
+| Live stream: gate-optimal variant, X-IIoTID | `0x6290C7c41fdcE61441bC116484dc015ce6128b53` | 1,842,311 | 13 (6 / 3 / 4) |
+| Live stream: denial of learning, WUSTL (`CoverageEscalation` at batch 230) | `0x72498249bB0C682B53e59c482cd460C7a104b05E` | 1,842,437 | 19 (3 / 0 / 16) |
+
+Deployment transactions, the gateway and the validator accounts are listed in `simulation/chain/deployment_ev.json`.
+
 ```
 python -m chain.compile ModelUpdateGateEV           # optional, the compiled .json is included
 python -m chain.ev_live_test --out results/chain_ev
