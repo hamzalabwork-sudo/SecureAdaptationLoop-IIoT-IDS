@@ -8,12 +8,27 @@ authors:
   - family-names: Ibrahim
     given-names: Hamza
     affiliation: "Kumoh National Institute of Technology"
+    orcid: "https://orcid.org/0009-0003-6388-9249"
+  - family-names: Aliyu
+    given-names: Muhammad Bello
+    affiliation: "Sokoto State University"
+    orcid: "https://orcid.org/0009-0005-5008-3339"
+  - family-names: Abubakar
+    given-names: Aliyu Gambo
+    affiliation: "Gujarat Technological University"
+    orcid: "https://orcid.org/0009-0004-0548-3803"
   - family-names: Ahakonye
     given-names: Love Allen Chijioke
+    affiliation: "Kumoh National Institute of Technology"
+    orcid: "https://orcid.org/0000-0003-2840-1693"
   - family-names: Lee
     given-names: Jae-Min
+    affiliation: "Kumoh National Institute of Technology"
+    orcid: "https://orcid.org/0000-0001-6885-5185"
   - family-names: Kim
     given-names: Dong-Seong
+    affiliation: "Kumoh National Institute of Technology"
+    orcid: "https://orcid.org/0000-0002-2977-5964"
 preferred-citation:
   type: article
   title: "Attacking and Provably Securing the Adaptation Loop of Self-Updating IIoT Intrusion Detection"
@@ -22,6 +37,10 @@ preferred-citation:
   authors:
     - family-names: Ibrahim
       given-names: Hamza
+    - family-names: Aliyu
+      given-names: Muhammad Bello
+    - family-names: Abubakar
+      given-names: Aliyu Gambo
     - family-names: Ahakonye
       given-names: Love Allen Chijioke
     - family-names: Lee

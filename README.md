@@ -2,7 +2,7 @@
 
 Code, smart contract, configurations and per-run results for the paper
 
-> H. Ibrahim, L. A. C. Ahakonye, J.-M. Lee, D.-S. Kim, "Attacking and Provably Securing the Adaptation Loop of Self-Updating IIoT Intrusion Detection," submitted to *IEEE Internet of Things Journal*.
+> H. Ibrahim, M. B. Aliyu, A. G. Abubakar, L. A. C. Ahakonye, J.-M. Lee, D.-S. Kim, "Attacking and Provably Securing the Adaptation Loop of Self-Updating IIoT Intrusion Detection," submitted to *IEEE Internet of Things Journal*.
 
 A self-updating IDS validates every model update before it may serve traffic. This repository contains:
 - **the attacks** against such a gate: trigger hijacking, the gate-optimal variant, checkpoint erosion and denial of learning;
